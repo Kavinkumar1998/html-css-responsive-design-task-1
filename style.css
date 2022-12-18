@@ -1,0 +1,88 @@
+* {
+    box-sizing:auto;;
+    margin:0;
+    padding:0;
+  }
+nav{
+        padding:20px;
+        border: 1px solid blue;
+        width:100%;
+        position: relative;
+        top:0;
+        background-color: rgb(39, 38, 38);
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+h1{
+    color:aliceblue
+}
+.main-class{
+border:1px solid black;
+width: 100%;
+background-color: rgb(181, 186, 192);
+position: relative; 
+padding:2rem;
+height : 100vh;
+display: grid;
+grid-template-areas:
+"bg search search search"
+"bg sm1 sm2 sm3 "
+"bg lal lal lal";
+}
+
+
+.bg-cont{
+    grid-area: bg ;
+    border:2px solid black;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(87, 85, 85);
+
+}
+.sm1-cont{
+    grid-area: sm1 ;
+    border:2px solid black;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: rgb(87, 85, 85);
+
+}
+.sm2-cont{
+    grid-area: sm2 ;
+    border:2px solid black;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgb(87, 85, 85);
+}
+.sm3-cont{
+    grid-area: sm3 ;
+    border:2px solid black;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgb(87, 85, 85);
+}
+.search-cont{
+    grid-area: search ;
+    border:2px solid black;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 100px;
+    background-color: rgb(87, 85, 85);
+    font-size: large;
+    color: antiquewhite;
+}
+.longandlarge-cont{
+    grid-area: lal ;
+    border:2px solid black;
+    width:730px;
+    height: 280px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: rgb(87, 85, 85);
+}
